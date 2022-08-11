@@ -36,39 +36,40 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
-  <br>
-  ${renderLicenseBadge(data.license)}
-  ##Description
-  <br>
-  ${data.describe}
-  <br>
-  ##Table of Contents
-  <br>
-  [Installation] (#installation)
-  [Usage] (#usage)
-  [License] ${renderLicenseLink(data.license)}
-  [Contributing] (#contributing)
-  [Test] (#test)
-  [Questions] (#questions)
-  <br>
-  ##Installation
-  ${data.install}
-  <br>
-  ##Usage
-  ${data.use}
-  <br>
-  ##License
-  ${renderLicenseSection(data.license)}
-  <br>
-  ##Contributing
-  ${data.contribution}
-  <br>
-  ##Test
-  ${data.testing}
-  <br>
-  ##Questions
-  Feel free to reach me at my github ${data.user} or my email ${data.email}
+return `# ${data.title}
+
+${renderLicenseBadge(data.license)}
+
+## Description
+
+${data.describe}
+
+## Table of Contents
+
+- [Installation] (#installation)
+- [Usage] (#usage)
+- [License] ${renderLicenseLink(data.license)}
+- [Contributing] (#contributing)
+- [Test] (#test)
+- [Questions] (#questions)
+
+## Installation
+${data.install}
+
+## Usage
+${data.use}
+
+## License
+${renderLicenseSection(data.license)}
+
+## Contributing
+${data.contribution}
+
+## Test
+${data.testing}
+
+## Questions
+Feel free to reach me at my github ${data.user} or my email ${data.email}
 `;
 }
 
