@@ -46,12 +46,12 @@ ${data.describe}
 
 ## Table of Contents
 
-- [Installation] (#installation)
-- [Usage] (#usage)
-- [License] ${renderLicenseLink(data.license)}
-- [Contributing] (#contributing)
-- [Test] (#test)
-- [Questions] (#questions)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License]${renderLicenseLink(data.license)}
+- [Contributing](#contributing)
+- [Test](#test)
+- [Questions](#questions)
 
 ## Installation
 ${data.install}
