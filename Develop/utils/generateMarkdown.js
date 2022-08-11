@@ -49,8 +49,8 @@ ${data.describe}
 - [Installation](#installation)
 - [Usage](#usage)
 - [License]${renderLicenseLink(data.license)}
-- [Contributing](#contributing)
-- [Test](#test)
+- [Contribution Guidelines](#contribution-guidelines)
+- [Test Instructions](#test-instructions)
 - [Questions](#questions)
 
 ## Installation
@@ -62,10 +62,10 @@ ${data.use}
 ## License
 ${renderLicenseSection(data.license)}
 
-## Contributing
+## Contribution Guidelines
 ${data.contribution}
 
-## Test
+## Test Instructions
 ${data.testing}
 
 ## Questions
