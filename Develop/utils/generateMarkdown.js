@@ -69,7 +69,7 @@ ${data.contribution}
 ${data.testing}
 
 ## Questions
-Feel free to reach me at my github ${data.user} or my email ${data.email}
+Feel free to reach me at my github [https://github.com/${data.user}/] or my email ${data.email}
 `;
 }
 
