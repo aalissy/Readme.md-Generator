@@ -42,3 +42,4 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 
 ## Video
+[Readme generator video.webm](https://user-images.githubusercontent.com/32420245/184253046-80f099b4-2cf6-4b57-a17f-9a91f60caa64.webm)
